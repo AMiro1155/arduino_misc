@@ -1,0 +1,361 @@
+ALPHABET
+
+/*
+  Function containing the latin alphabet
+  Written by Andrey Alekseevich Miroshnikov on 18/04/15
+  Last Updated: 18/04/15
+*/
+void alpha()
+{
+ if (curr == 'a'){
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'b'){
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'c'){
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'd'){
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'e'){
+   morse.dot();
+ }
+ 
+ if (curr == 'f'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'g'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'h'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'i'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'j'){
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'k'){
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'l'){
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'm'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'n'){
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'o'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'p'){
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 'q'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'r'){
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 's'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == 't'){
+   morse.dash();
+ }
+ 
+ if (curr == 'u'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'v'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'w'){
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'x'){
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'y'){
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == 'z'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ return;
+}
+
+
+NUMBERS
+
+/*
+  Function containing arabic numerals
+  Written by Andrey Alekseevich Miroshnikov on 18/04/15
+  Last Updated: 18/04/15
+*/
+void num()
+{
+ if (curr == '1'){
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == '2'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == '3'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == '4'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dash();
+ }
+ 
+ if (curr == '5'){
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == '6'){
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == '7'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == '8'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == '9'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dot();
+ }
+ 
+ if (curr == '0'){
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+   morse.intedel();
+   morse.dash();
+ }
+ return;
+}
+
+KEYPAD
+
